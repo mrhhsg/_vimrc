@@ -186,7 +186,7 @@ nmap <C-_>d :cs find d <C-R>=expand("<cword>")<CR><CR>
 
 set nocompatible                " be iMproved
 filetype off                    " required!
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/vundle.git/
 call vundle#rc()
 
 " let Vundle manage Vundle
